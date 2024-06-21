@@ -56,7 +56,7 @@
 3. **Set up the server**. If your local inference is on, you will see the option to connect.
 4. **Click Connect** and proceed to the chat screen to start chatting.
 
-#### Step 10: For Windows Users
+#### For Windows Users
 1. **Download the Windows version** of the HaiVE AI Studio application:
    [Windows Download Link](https://github.com/aivfkesavan/aistudio/raw/main/app/HaiVE%20AI%20Studio_1.0.1_x64-setup.exe)
 2. **Note**: Disable your antivirus software before installation to prevent any issues.
