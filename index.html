@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaiVE AI Studio Installation Guide</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        h1, h2, h3 { color: #333; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        pre { background: #f4f4f4; padding: 10px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HaiVE AI Studio Installation Guide</h1>
+
+        <h2>Preliminary Step: Clear Old Installation</h2>
+        <p>If you already have the app installed, open it and click the "Reset" button to clear all cache files. Remove the old application from your system. Proceed with the new installation.</p>
+
+        <h2>Step 1: Download the Application</h2>
+        <p>Click on the link to download the HaiVE AI Studio application:</p>
+        <ul>
+            <li>For Mac: <a href="https://github.com/aivfkesavan/aistudio/raw/main/HaiVE%20AI%20Studio.dmg">Download Link</a></li>
+            <li>For Windows: <a href="https://github.com/aivfkesavan/aistudio/raw/main/app/HaiVE%20AI%20Studio_1.0.1_x64-setup.exe">Windows Download Link</a> (Note: Disable your antivirus software before installation to prevent any issues.)</li>
+        </ul>
+
+        <h2>Step 2: Handling the "Damaged" Error (Mac Only)</h2>
+        <p>Attempt to open the application. If you receive a pop-up stating that "HaiVE AI Studio is damaged and can't be opened", follow the next steps.</p>
+
+        <h2>Step 3: Removing Quarantine Attribute (Mac Only)</h2>
+        <p>Open Terminal on your Mac. Run the following command to remove the quarantine attribute:</p>
+        <pre>xattr -c /Applications/HaiVE\ AI\ Studio.app</pre>
+        <p><img src="https://github.com/aivfkesavan/aistudio/blob/main/img/Screenshot%202024-06-21%20at%2012.46.44%E2%80%AFPM.png?raw=true" alt="Terminal Screenshot"></p>
+
+        <h2>Step 4: Opening the Application</h2>
+        <p>Navigate to the Applications folder. Control-click the HaiVE AI Studio app. Select Open from the context menu and confirm by clicking Open again in the pop-up. Sign up or log in to your account to access the application.</p>
+
+        <h2>Step 5: Downloading Models</h2>
+        <p>Go to the Model Download Catalog screen. You will see a screen like the one below:</p>
+        <p><img src="https://github.com/aivfkesavan/aistudio/blob/main/img/Screenshot%202024-06-21%20at%2012.48.23%E2%80%AFPM.png?raw=true" alt="Model Download Screen"></p>
+        <p>Review the status of each model to determine which one is suitable for your system. The status will indicate if a model is recommended, not suitable due to insufficient RAM, or might slow down your system. Click the Download button next to the model that suits your system specifications.</p>
+
+        <h2>Step 6: Model Settings and Starting</h2>
+        <p>Go to the Settings page. You will see a screen like the one below:</p>
+        <p><img src="https://github.com/aivfkesavan/aistudio/blob/main/img/Screenshot%202024-06-21%20at%2012.54.50%E2%80%AFPM.png?raw=true" alt="Settings Page"></p>
+        <p>Choose the model you want to use from the drop-down menu. Adjust the model settings such as Context length, Continuous Batching, Temperature, Max Tokens, Repeat Penalty, Top P Sampling, and Token Limit. Monitor the Usage of CPU and RAM. Click the Start button to start the model.</p>
+
+        <h2>Step 7: Chatting with the System</h2>
+        <p>Go to the Chat screen. You will see a screen like the one below:</p>
+        <p><img src="https://github.com/aivfkesavan/aistudio/blob/main/img/Screenshot%202024-06-21%20at%2012.56.24%E2%80%AFPM.png?raw=true" alt="Chat Screen"></p>
+        <p>Start a new chat by clicking the "Add New Chat" button. Interact with the AI by typing your messages in the message box. You can see the chat history and manage your conversations.</p>
+
+        <h2>Step 8: Sharing Local Inference</h2>
+        <p>Go to the Local Inference screen. You will see a screen like the one below:</p>
+        <p><img src="https://github.com/aivfkesavan/aistudio/blob/main/img/Screenshot%202024-06-21%20at%2012.55.05%E2%80%AFPM.png?raw=true" alt="Local Inference Screen"></p>
+        <p>Click the "Go Public" button to share your local inference. Invite friends by entering their email addresses and clicking the "Invite" button. After successful sharing, you will see a red "Stop Sharing" button.</p>
+
+        <h2>Step 9: Accessing Inference on Mobile</h2>
+        <p>Download the mobile app:</p>
+        <ul>
+            <li>For Android users, <a href="https://github.com/aivfkesavan/aistudio/blob/main/app/haive-app.apk">Download the APK</a></li>
+            <li>For Apple users, <a href="https://apps.apple.com/us/app/haive-ai/id6499375021">Download from the App Store</a></li>
+        </ul>
+        <p>Sign up or log in to your account if you don't already have one. Set up the server. If your local inference is on, you will see the option to connect:</p>
+        <p><img src="https://github.com/aivfkesavan/aistudio/blob/main/img/460x0w.webp?raw=true" alt="Mobile Setup Screen"></p>
+        <p>Click Connect and proceed to the chat screen to start chatting.</p>
+
+    </div>
+</body>
+</html>
